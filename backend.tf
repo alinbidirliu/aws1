@@ -17,7 +17,7 @@ module "s3-terraform-state" {
   source  = "cloudposse/s3-bucket/aws"
   version = "3.1.3"
 
-  bucket_name        = "alinbucketoriginal"
+  bucket_name        = "alinbucketoriginall"
   versioning_enabled = true
 }
 
