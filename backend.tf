@@ -13,7 +13,7 @@ provider "aws" {
 #}
 
 
-module "s3-terraform-state" {
+module "s3-terraform-state" "alinbucket" {
   source  = "cloudposse/s3-bucket/aws"
   version = "3.1.3"
 
